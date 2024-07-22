@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HISTORY</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <svg display="none">
+        <symbol id="arrow">
+            <polyline points="7 10,12 15,17 10" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+        </symbol>
+    </svg>    
+    <div class="decode-text">
+        <div class="text-animation">D</div>
+        <div class="text-animation">O</div>
+        <div class="text-animation">P</div>
+        <div class="text-animation">A</div>
+        <div class="text-animation">M</div>
+        <div class="text-animation">I</div>
+        <div class="text-animation">N</div>
+        <div class="text-animation">E</div>
+        <div class="space"></div>
+      </div>
+      
+    <div id="timeline" class="timeline">
+        <div class="btn-group">
+            <button class="btn" type="button" data-action="expand">Expand All</button>
+            <button class="btn" type="button" data-action="collapse">Collapse All</button>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item1" aria-labelledby="item1-name" aria-expanded="false" aria-controls="item1-ctrld" aria-haspopup="true" data-item="1">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item1-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="1970-01-01">5.14</time><br>
+                    <strong class="timeline__title">DOPAMINE Material Meeting & Logo Making!</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item1-ctrld" role="region" aria-labelledby="item1" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">각각 개인의 생각과 구상한것을 반영 및 취합하여 DOPAMINE만의 로고를 제작!</div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item2" aria-labelledby="item2-name" aria-expanded="false" aria-controls="item2-ctrld" aria-haspopup="true" data-item="2">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item2-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="1973-10-17">5.21</time><br>
+                    <strong class="timeline__title">Four Cuts of My Life With the Boss!</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item2-ctrld" role="region" aria-labelledby="item2" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">히스토리 영상에 들어갈 인생네컷 촬영!</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item3" aria-labelledby="item3-name" aria-expanded="false" aria-controls="item3-ctrld" aria-haspopup="true" data-item="3">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item3-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="2001-09-09">5.22</time><br>
+                    <strong class="timeline__title">Layout and Design & Effects Decide</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item3-ctrld" role="region" aria-labelledby="item3" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">다양한 효과 및 레이아웃을 리서치 하여 도파민만의 개성을 보여줌!</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item4" aria-labelledby="item4-name" aria-expanded="false" aria-controls="item4-ctrld" aria-haspopup="true" data-item="4">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item4-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="2009-02-13">5.24</time><br>
+                    <strong class="timeline__title">Image Contact</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item4-ctrld" role="region" aria-labelledby="item4" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">각각 개인의 Sub Page와 팀의 Main Page에 들어갈 최종적인 이미지를 선택!</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item5" aria-labelledby="item5-name" aria-expanded="false" aria-controls="item5-ctrld" aria-haspopup="true" data-item="5">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item5-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="2033-05-18">6.10</time><br>
+                    <strong class="timeline__title">Let's Coding</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item5-ctrld" role="region" aria-labelledby="item5" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">최종의 단계인 "Coding"을 입력해 Sub Page와 Main Page가 가동할수 있게 제작!</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline__item">
+            <div class="timeline__item-header">
+                <button class="timeline__arrow" type="button" id="item6" aria-labelledby="item6-name" aria-expanded="false" aria-controls="item6-ctrld" aria-haspopup="true" data-item="6">
+                    <svg class="timeline__arrow-icon" viewBox="0 0 24 24" width="24px" height="24px">
+                        <use href="#arrow" />
+                    </svg>
+                </button>
+                <span class="timeline__dot"></span>
+                <span id="item6-name" class="timeline__meta">
+                    <time class="timeline__date" datetime="2038-01-19">6.13</time><br>
+                    <strong class="timeline__title">Create Presentation Materials</strong>
+                </span>
+            </div>
+            <div class="timeline__item-body" id="item6-ctrld" role="region" aria-labelledby="item6" aria-hidden="true">
+                <div class="timeline__item-body-content">
+                    <p class="timeline__item-p">발표자료 만들어 유종의 미를 거두기전에 <a href="./video/joteamvideo.mp4" target="_blank" rel="noopener">비하인드 영상 보러가실~!?</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page">
+        <div id="toggle">
+          <div class="bar"></div>
+        </div>
+        <section id="overlay">
+          <nav>
+            <ul>
+              <li><a href="../index.html">DOPAMINE</a></li>
+              <li><a href="../juntaek1/index.html">COMPANY</a></li>
+              <li><a href="../juntaek2/index.html">DESIGNER</a></li>
+              <li><a href="../jihyen/index.html">NEWSROOM</a></li>
+              <li><a href="../jongyun/index.html">PROJECT</a></li>
+              <li><a href="../changyoung/index.html">HISTORY</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script>
+    $('#toggle').click(function() {
+    $('#toggle .bar').toggleClass('animate');
+    $('#page').toggleClass('overlay');
+    });
+        
+    window.addEventListener("DOMContentLoaded", () => {
+        const ctl = new CollapsibleTimeline("#timeline");
+    });
+    
+    class CollapsibleTimeline {
+        constructor(el) {
+            this.el = document.querySelector(el);
+    
+            this.init();
+        }
+        init() {
+            this.el?.addEventListener("click", this.itemAction.bind(this));
+        }
+        animateItemAction(button, ctrld, contentHeight, shouldCollapse) {
+            const expandedClass = "timeline__item-body--expanded";
+            const animOptions = {
+                duration: 300,
+                easing: "cubic-bezier(0.65,0,0.35,1)"
+            };
+    
+            if (shouldCollapse) {
+                button.ariaExpanded = "false";
+                ctrld.ariaHidden = "true";
+                ctrld.classList.remove(expandedClass);
+                animOptions.duration *= 2;
+                this.animation = ctrld.animate(
+                    [
+                        { height: `${contentHeight}px` },
+                        { height: `${contentHeight}px` },
+                        { height: "0px" }
+                    ],
+                    animOptions
+                );
+            } else {
+                button.ariaExpanded = "true";
+                ctrld.ariaHidden = "false";
+                ctrld.classList.add(expandedClass);
+                this.animation = ctrld.animate(
+                    [{ height: "0px" }, { height: `${contentHeight}px` }],
+                    animOptions
+                );
+            }
+        }
+        itemAction(e) {
+            const { target } = e;
+            const action = target?.getAttribute("data-action");
+            const item = target?.getAttribute("data-item");
+    
+            if (action) {
+                const targetExpanded = action === "expand" ? "false" : "true";
+                const buttons = Array.from(
+                    this.el?.querySelectorAll(`[aria-expanded="${targetExpanded}"]`)
+                );
+                const wasExpanded = action === "collapse";
+    
+                for (let button of buttons) {
+                    const buttonID = button.getAttribute("data-item");
+                    const ctrld = this.el?.querySelector(`#item${buttonID}-ctrld`);
+                    const contentHeight = ctrld.firstElementChild?.offsetHeight;
+    
+                    this.animateItemAction(button, ctrld, contentHeight, wasExpanded);
+                }
+            } else if (item) {
+                const button = this.el?.querySelector(`[data-item="${item}"]`);
+                const expanded = button?.getAttribute("aria-expanded");
+    
+                if (!expanded) return;
+    
+                const wasExpanded = expanded === "true";
+                const ctrld = this.el?.querySelector(`#item${item}-ctrld`);
+                const contentHeight = ctrld.firstElementChild?.offsetHeight;
+    
+                this.animateItemAction(button, ctrld, contentHeight, wasExpanded);
+            }
+        }
+    }
+
+    /* ------------------------------------------------------------------------ *  
+4 states per letter: Transparent | Line | Block | Visible.
+These states are shuffled for a unique "decode" effect each time.
+* ------------------------------------------------------------------------ */
+
+function decodeText() {
+  var text = document.getElementsByClassName("decode-text")[0];
+  // debug with
+  // console.log(text, text.children.length);
+
+  // assign the placeholder array its places
+  var state = [];
+  for (var i = 0, j = text.children.length; i < j; i++) {
+    text.children[i].classList.remove("state-1", "state-2", "state-3");
+    state[i] = i;
+  }
+
+  // shuffle the array to get new sequences each time
+  var shuffled = shuffle(state);
+
+  for (var i = 0, j = shuffled.length; i < j; i++) {
+    var child = text.children[shuffled[i]];
+    classes = child.classList;
+
+    // fire the first one at random times
+    var state1Time = Math.round(Math.random() * (2000 - 300)) + 50;
+    if (classes.contains("text-animation")) {
+      setTimeout(firstStages.bind(null, child), state1Time);
+    }
+  }
+}
+
+// send the node for later .state changes
+function firstStages(child) {
+  if (child.classList.contains("state-2")) {
+    child.classList.add("state-3");
+  } else if (child.classList.contains("state-1")) {
+    child.classList.add("state-2");
+  } else if (!child.classList.contains("state-1")) {
+    child.classList.add("state-1");
+    setTimeout(secondStages.bind(null, child), 100);
+  }
+}
+function secondStages(child) {
+  if (child.classList.contains("state-1")) {
+    child.classList.add("state-2");
+    setTimeout(thirdStages.bind(null, child), 100);
+  } else if (!child.classList.contains("state-1")) {
+    child.classList.add("state-1");
+  }
+}
+function thirdStages(child) {
+  if (child.classList.contains("state-2")) {
+    child.classList.add("state-3");
+  }
+}
+
+function shuffle(array) {
+  var currentIndex = array.length,
+    temporaryValue,
+    randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+  return array;
+}
+
+// Demo only stuff
+decodeText();
+
+// beware: refresh button can overlap this timer and cause state mixups
+setInterval(function () {
+  decodeText();
+}, 10000);
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  var div,
+    n,
+    v = document.getElementsByClassName("youtube-player");
+  for (n = 0; n < v.length; n++) {
+    div = document.createElement("div");
+    div.setAttribute("data-id", v[n].dataset.id);
+    div.innerHTML = labnolThumb(v[n].dataset.id);
+    div.onclick = labnolIframe;
+    v[n].appendChild(div);
+  }
+});
+
+function labnolThumb(id) {
+  var thumb =
+      '<img src="/img/yt-thumb.jpg" title="youtube video" alt="Youtube Video">',
+    play = '<div class="play"></div>';
+  return thumb + play;
+}
+
+function labnolIframe() {
+  var iframe = document.createElement("iframe");
+  var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+  iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+  iframe.setAttribute("frameborder", "0");
+  iframe.setAttribute("allowfullscreen", "1");
+  this.parentNode.replaceChild(iframe, this);
+}
+
+
+
+    </script>
+</body>
+</html>
